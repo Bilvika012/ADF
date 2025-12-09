@@ -1,0 +1,26 @@
+{
+	"name": "Event_Trigger_storage",
+	"properties": {
+		"description": "moving data from one place to another storage",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_trigger",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventtrigger/blobs/data",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/b54edc61-23b3-4473-8cf6-32f1158d2c2d/resourceGroups/bgdevdemo/providers/Microsoft.Storage/storageAccounts/adlsdevbulkdemo",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

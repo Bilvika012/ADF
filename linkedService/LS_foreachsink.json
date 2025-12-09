@@ -1,0 +1,12 @@
+{
+	"name": "LS_foreachsink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsdevbulkbank.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDZBMEFCQzMyLTExOUEtNEQxMi04OTI1LTJBN0FFNjkyQTc5Rl9jZjhmYWQ4MC05ZTIyLTQ4OTUtOTU0Yy0zZjAxMWQ0YzliNGMiDQp9"
+		}
+	}
+}
