@@ -1,0 +1,171 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevdata"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"DATA_EXCEL_LS_accountKey": {
+			"value": ""
+		},
+		"EXCEL_DATA_LS_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_DataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_Datacheck_ifcondition_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLEDATA_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLEDATA_parquet_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSVBULK_accountKey": {
+			"value": ""
+		},
+		"LS_foreach_csv_accountKey": {
+			"value": ""
+		},
+		"LS_foreachsink_accountKey": {
+			"value": ""
+		},
+		"LS_lookup_accountKey": {
+			"value": ""
+		},
+		"LS_onprem_password": {
+			"value": ""
+		},
+		"LS_onprem1_accountKey": {
+			"value": ""
+		},
+		"LS_sqltoblob_password": {
+			"value": ""
+		},
+		"LS_storepro_password": {
+			"value": ""
+		},
+		"LS_storeprocedure_new_password": {
+			"value": ""
+		},
+		"LS_storeprocedure_newsink_accountKey": {
+			"value": ""
+		},
+		"LS_storeprocedure_onprem_password": {
+			"value": ""
+		},
+		"SqlServer1lookup_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"DATA_EXCEL_LS_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"EXCEL_DATA_LS_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net"
+		},
+		"LS_DataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net"
+		},
+		"LS_Datacheck_ifcondition_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLEDATA_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLEDATA_parquet_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"LS_foreach_csv_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net/"
+		},
+		"LS_foreachsink_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"LS_lookup_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkdemo.dfs.core.windows.net/"
+		},
+		"LS_onprem_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"LS_onprem_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_onprem_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_onprem1_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"LS_sqltoblob_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"LS_sqltoblob_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_sqltoblob_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_storepro_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"LS_storepro_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_storepro_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_storeprocedure_new_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"LS_storeprocedure_new_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_storeprocedure_new_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_storeprocedure_newsink_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkbank.dfs.core.windows.net/"
+		},
+		"LS_storeprocedure_onprem_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"LS_storeprocedure_onprem_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_storeprocedure_onprem_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer1lookup_properties_typeProperties_server": {
+			"value": "DESKTOP-Q9ECSVD\\SQLEXPRESS"
+		},
+		"SqlServer1lookup_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1lookup_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"Event_Trigger_storage_properties_typeProperties_scope": {
+			"value": "/subscriptions/b54edc61-23b3-4473-8cf6-32f1158d2c2d/resourceGroups/bgdevdemo/providers/Microsoft.Storage/storageAccounts/adlsdevbulkdemo"
+		}
+	}
+}
